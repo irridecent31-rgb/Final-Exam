@@ -1,0 +1,32 @@
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+#register-btn {
+    transition: transform 1.03s ease;
+    color: #d20707;
+}
+
+#register-btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        color: #a10202;
+    }
+}
